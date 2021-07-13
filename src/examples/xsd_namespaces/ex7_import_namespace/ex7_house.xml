@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nedvig:house xmlns:nedvig="main"
+              xmlns:bonus="bonus"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="main main.xsd">
+    <nedvig:address>ул. Есенина, дом №5</nedvig:address>
+    <nedvig:owner name="Ivan">
+        <bonus:telephone>+38-094-521-77-35</bonus:telephone>
+    </nedvig:owner>
+</nedvig:house>

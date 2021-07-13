@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <oracle>
+        <connection value="jdbc:oracle:thin:@10.220.140.48:1521:test1" />
+        <user value="root" />
+        <password value="111" />
+    </oracle>
+
+    <oracle>
+        Сегодня вы будете заняты весь день.
+    </oracle>
+</root>

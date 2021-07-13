@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<house>
+    <address>ул. Есенина, дом №5</address>
+    <owner name="Ivan">
+        <telephone>+38-094-521-77-35</telephone>
+    </owner>
+</house>

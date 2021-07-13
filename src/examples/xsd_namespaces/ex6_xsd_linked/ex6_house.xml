@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nedvig:house xmlns:nedvig="https://www.nedvigimost.com/"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://www.nedvigimost.com/ ex6_house.xsd">
+    <address>ул. Есенина, дом №5</address>
+    <owner name="Ivan">
+        <telephone>+38-094-521-77-35</telephone>
+    </owner>
+</nedvig:house>

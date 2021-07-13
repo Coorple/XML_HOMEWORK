@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="https://www.nedvigimost.com/">
+    <element name="house">
+        <complexType>
+            <sequence>
+                <element name="address" type="string" maxOccurs="unbounded" minOccurs="0" />
+                <element name="owner" maxOccurs="unbounded" minOccurs="0" >
+                    <complexType>
+                        <sequence>
+                            <element name="telephone" type="string" />
+                        </sequence>
+                        <attribute name="name" type="string" use="required"/>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

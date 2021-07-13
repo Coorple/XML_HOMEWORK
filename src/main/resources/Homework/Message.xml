@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ss:message xmlns:ss="http://www.sdet-school2021.ru/xml/message"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.sdet-school2021.ru/xml/message Message.xsd">
+
+    <messagedate>${messageDate}</messagedate>
+    <surname>${lastName}</surname>
+    <name>${firstName}</name>
+    <patronymic>${patronymic}</patronymic>
+    <postaladdress>Санкт-Петербург, ул.Зенитчиков, д.23, кв. 59</postaladdress>
+    <email>${email}</email>
+    <department>
+        <name>${departmentName}</name>
+        <population>${population}</population>
+    </department>
+    <text>Сообщение, по поводу которого мы должны согласовать наши позиции</text>
+    <filename>svid.txt</filename>
+    <filedata>0J/RgNC40LzQtdGA</filedata>
+
+</ss:message>

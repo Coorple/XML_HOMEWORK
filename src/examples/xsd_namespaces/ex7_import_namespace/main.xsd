@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="main"
+        xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:bonus="bonus" elementFormDefault="qualified">
+    <import namespace="bonus" schemaLocation="bonus.xsd" />
+    <element name="house">
+        <complexType>
+            <all>
+                <element name="address" type="string" />
+                <element name="owner" type="bonus:owner" />
+            </all>
+        </complexType>
+    </element>
+</schema>

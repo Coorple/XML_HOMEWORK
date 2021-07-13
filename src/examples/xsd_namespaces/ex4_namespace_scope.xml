@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <el1:element1 xmlns:el1="Element#1 Unique String">
+        <el1:innerElement>
+
+        </el1:innerElement>
+    </el1:element1>
+
+
+    <el2:element2 xmlns:el2="Element#2 Unique String">
+        <el2:innerElement>
+
+        </el2:innerElement>
+    </el2:element2>
+
+
+    <el3:element3 xmlns:el3="Element#3 Unique String">
+        <el3:innerElement>
+            <!-- Так нельзя, потому что пространство el1 объявлено только в первом элементе,
+            значит, может использоваться только внутри первого элемента и его внутренних элементов. -->
+            <el1:innerInnerElement>
+
+            </el1:innerInnerElement>
+        </el3:innerElement>
+    </el3:element3>
+</root>
